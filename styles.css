@@ -1,0 +1,82 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: "Georgia", serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 40px 0 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Main Content */
+main {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.pdf-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portrait {
+    display: block;
+    margin: 0 auto 30px;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+.pdf-container {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #888;
+}
